@@ -1,0 +1,42 @@
+<div class="form-check">
+  <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}1" value="1">
+  <label class="form-check-label" for="{{name}}1">
+    {{answer1}}
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}2" value="2">
+  <label class="form-check-label" for="{{name}}2">
+    {{answer2}}
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}3" value="3">
+  <label class="form-check-label" for="{{name}}3">
+    {{answer3}}
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}4" value="4">
+  <label class="form-check-label" for="{{name}}4">
+    {{answer4}}
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}5" value="5">
+  <label class="form-check-label" for="{{name}}5">
+    {{answer5}}
+  </label>
+</div>
+
+
+<div class="dropdown">
+  <select name="{{name}}" id="{{name}}-{{@index}}">
+    <option class="default-option nuke" value="null">Select an option</option>
+    <option class="nuke" value="1">1. {{answer1}}</option>
+    <option class="nuke" value="2">2. {{answer2}}</option>
+    <option class="nuke" value="3">3. {{answer3}}</option>
+    <option class="nuke" value="4">4. {{answer4}}</option>
+    <option class="nuke" value="5">5. {{answer5}}</option>
+  </select>
+</div>

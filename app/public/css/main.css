@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#000, #003572);
+  background-attachment: fixed;
+  color: #81ddaa;
+}
+
+.jumbotron {
+  background-color: transparent;
+  overflow: hidden;
+  text-align: center;
+}
+
+#gator-img {
+  width: 180px;
+  margin-bottom: -28px;
+}
+
+.modal-content {
+  background-color: #003572;
+  color: #cccccc
+}
+
+.modal-body img {
+  margin: auto;
+  width: 90%;
+}
+
+.container {
+  width: 800px;
+}
+
+h1 {
+  font-size: 4em;
+  font-style: italic;
+}
+
+h1, h2, h5 {
+  font-family: 'Handlee', cursive;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+h3 {
+  background: url('../images/parthenon.jpg');
+  background-clip: text;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  color: transparent;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 5em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 20px 0;
+  text-shadow: 0 0 20px #ea00ff7e;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.container {
+  width: 800px;
+}
+
+.btn-div {
+  color: #e4e4e4;
+  margin: 75px auto 0 auto;
+  width: 180px;
+}
+
+.btn-div a {
+  background-color: #850000;
+  color: #e4e4e4;
+}
+
+.survey-question, .about-label {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+#name-input, #photo-input {
+  display: block;
+  width: 100%;
+}
+
+.form-check-input {
+  margin-left: 20px;
+}
+
+.form-check-label {
+  margin-left: 45px;
+}
+
+.score-div {
+  margin: 20px 0 50px 0;
+}
+
+@media (max-width: 960px) {
+  #gator-img {
+    width: 150px;
+    margin-bottom: -23px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 3.9em;
+  }
+  .carousel {
+    height: 366px;
+    width: 666px;
+  }
+  .carousel-item img {
+    height: 300px;
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  #gator-img {
+    width: 140px;
+    margin-bottom: -20px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 3.25em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+  .survey-container {
+    max-width: 90%;
+  }
+  .carousel {
+    height: 266px;
+    width: 466px;
+  }
+  .carousel-item img {
+    height: 200px;
+    width: 400px;
+  }
+  .survey-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  #gator-img {
+    width: 125px;
+    margin-bottom: -15px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 2.75em;
+  }
+  h5 {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 535px) {
+  #gator-img {
+    width: 120px;
+    margin-bottom: -14px;
+  }
+  h5 {
+    font-size: 1em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  .carousel {
+    height: 216px;
+    width: 366px;
+  }
+  .carousel-item img {
+    height: 150px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 490px) {
+  #gator-img {
+    width: 110px;
+    margin-bottom: -11px;
+  }
+  h5 {
+    font-size: .9em;
+  }
+  h1 {
+    font-size: 1.6em;
+  }
+  h2 {
+    font-size: .95em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 400px) {
+  #gator-img {
+    width: 95px;
+    margin-bottom: -8px;
+  }
+  h5 {
+    font-size: .8em;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: .8em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .carousel {
+    height: 166px;
+    width: 266px;
+  }
+  .carousel-item img {
+    height: 100px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,75 @@
+<div class="modal fade" id="img-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="false">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container survey-container">
+  <h4>About You</h4>
+  <label class="about-label" for="name-input">Name (Required)</label>
+  <input type="text" id="name-input">
+  <label class="about-label" for="photo-input">URL to photo image (Required)</label>
+  <input type="text" id="photo-input"> {{#each quest}}
+  <h4>Question {{add @index 1}}</h4>
+  <p class="survey-question">{{question}}</p>
+  <div class="form-check">
+    <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}-1" value="1">
+    <label class="form-check-label" for="{{name}}-1">
+      {{answer1}}
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}-2" value="2">
+    <label class="form-check-label" for="{{name}}-2">
+      {{answer2}}
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}-3" value="3">
+    <label class="form-check-label" for="{{name}}-3">
+      {{answer3}}
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}-4" value="4">
+    <label class="form-check-label" for="{{name}}-4">
+      {{answer4}}
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input radio-btn" type="radio" name="{{name}}" id="{{name}}-5" value="5">
+    <label class="form-check-label" for="{{name}}-5">
+      {{answer5}}
+    </label>
+  </div>
+  {{/each}}
+
+  <div class="btn-div score-div">
+    <a id="get-score" class="btn btn-primary btn-lg" role="button">Submit</a>
+    <a id="home-btn" class="btn btn-primary btn-lg" href="/" role="button">Return Home</a>
+  </div>
+
+  <hr>
+
+  <nav>
+    <a href="/api/friends">API Friends List</a>
+    <a href="">GitHub Repo</a>
+  </nav>
+
+</div>
+
+<script src="js/main.js"></script>
