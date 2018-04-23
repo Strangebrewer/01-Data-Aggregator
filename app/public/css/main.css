@@ -71,10 +71,6 @@ h5 {
   font-style: italic;
 }
 
-.container {
-  width: 800px;
-}
-
 .btn-div {
   color: #e4e4e4;
   margin: 75px auto 0 auto;
@@ -106,6 +102,11 @@ h5 {
 
 .score-div {
   margin: 20px 0 50px 0;
+}
+
+.container nav {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
