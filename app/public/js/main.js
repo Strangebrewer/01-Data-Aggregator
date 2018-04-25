@@ -31,7 +31,7 @@ $("#get-score").on("click", function (event) {
       photo: userPhoto,
       scores: scoreArray
     }
-
+console.log(friend);
     $.post("/api/friends", friend)
       .then(function (data) {
         console.log("suck it");
